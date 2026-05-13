@@ -18,7 +18,6 @@ The analysis focuses on extracting information from **FITS** (Flexible Image Tra
 
 
 ## The Astrophysical Workflow
-To understand the process of turning an image into data, follow this step-by-step logic:
 
 ```mermaid
 graph TD
@@ -45,8 +44,8 @@ from astropy.io import fits
 from matplotlib.colors import LogNorm
 
 # Loading the data
-with fits.open("messier12.fits") as hdul:
-    data = hdul.data
+hdul = fits.open('vcomb.fits')
+data = hdul[0].data
 
 # Visualizing with log scaling
 plt.imshow(data, cmap='inferno', origin='lower', norm=LogNorm())
@@ -84,7 +83,6 @@ sources = daofind(data - median)
 **Flux** represents the total brightness of a star. In a globular cluster like M12, the distribution is heavily skewed.
 
 *   **The Observation:** Most stars are relatively dim (low flux), while only a few giants are extremely bright.
-*   **The Visualization:** To see this relationship clearly, we transform flux into a **logarithmic scale** (`np.log10(fluxes)`) before plotting a histogram.
 
 
 
