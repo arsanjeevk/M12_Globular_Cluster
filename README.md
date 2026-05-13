@@ -83,7 +83,7 @@ sources = daofind(data - median)
 **Flux** represents the total brightness of a star. In a globular cluster like M12, the distribution is heavily skewed.
 
 *   **The Observation:** Most stars are relatively dim (low flux), while only a few giants are extremely bright.
-
+*   **The Visualization:** To see this relationship clearly, we transform flux into a **logarithmic scale** (`np.log10(fluxes)`) before plotting a histogram.
 
 
 ## Summary Table
