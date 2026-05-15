@@ -1,0 +1,301 @@
+Data shape: (2048, 2048)
+Filename: /home/Interstellar/Desktop/M12_Analysis/data/Vcomb.fits
+No.    Name      Ver    Type      Cards   Dimensions   Format
+  0  PRIMARY       1 PrimaryHDU     323   (2048, 2048)   float32   
+None
+
+
+SIMPLE  =                    T / Fits standard                                  
+BITPIX  =                  -32 / Bits per pixel                                 
+NAXIS   =                    2 / Number of axes                                 
+NAXIS1  =                 2048 / Axis length                                    
+NAXIS2  =                 2048 / Axis length                                    
+ORIGIN  = 'NOAO-IRAF FITS Image Kernel July 1999' / FITS file originator        
+DATE    = '2001-08-21T09:32:56' / Date FITS file was generated                  
+IRAF-TLM= '10:32:40 (21/08/2001)' / Time of last modification                   
+OBJECT  = '        '           / Name of the object observed                    
+EXTEND  =                    T / FITS extension may be present                  
+                                                                                
+CRPIX1  =               1005.1 / Reference pixel                                
+CRVAL1  =             251.7604 / Coordinate at reference pixel                  
+CDELT1  =         -5.54254E-05 / Coordinate increment per pixel                 
+CTYPE1  = 'RA---TAN        '   / Units of coordinate                            
+CRPIX2  =               1020.6 / Reference pixel                                
+CRVAL2  =             -1.89778 / Coordinate at reference pixel                  
+CDELT2  =          5.54254E-05 / Coordinate increment per pixel                 
+CTYPE2  = 'DEC--TAN        '   / Units of coordinate                            
+BUNIT   = '                '   / Units of data values                           
+                                                                                
+FILENAME= 'rbf_0_red.bdf'      / Original file base-name                        
+MIDASFTP= 'IMAGE   '           / MIDAS File Type                                
+                                                                                
+RA      =           251.760417 / MIDAS desc.: O_POS(1)                          
+DEC     =             -1.89778 / MIDAS desc.: O_POS(2)                          
+EQUINOX =                2000. / MIDAS desc.: O_POS(3)                          
+DATE-OBS= '1999-06-18'         / MIDAS desc.: O_TIME(1)                         
+MJD-OBS =        51347.1426081 / MIDAS desc.: O_TIME(4)                         
+TM-START=        12321.3363846 / MIDAS desc.: O_TIME(5)                         
+EXPTIME =               2.0048 / MIDAS desc.: O_TIME(7)                         
+OBSERVER= '        '           / MIDAS desc.: OBSERVER(1)                       
+INSTRUME= 'FORS1   '           / MIDAS desc.: INSTRUME(1)                       
+TELESCOP= 'ESO-VLT-U1'         / MIDAS desc.: TELESCOP(1)                       
+RADECSYS= 'FK5     '           / MIDAS desc.: RADECSYS(1)                       
+COMMENT TEL.TARG.ALPHA 2.517604e+02                                             
+COMMENT TEL.TARG.DELTA -1.897778e+00                                            
+COMMENT CDELT1 -5.542543e-05                                                    
+COMMENT CDELT2 5.542543e-05                                                     
+COMMENT 'FitsIO: added 1 block to header'                                       
+LST     =             59247.25 / 16:27:27.250 LST at start (sec)                
+UTC     =               12320. / 03:25:20.000 UTC at start (sec)                
+PC001001=                   1. / Translation matrix element                     
+PC001002=                   0. / Translation matrix element                     
+PC002001=                   0. / Translation matrix element                     
+PC002002=                   1. / Translation matrix element                     
+CHECKSUM= '5lPa5lOU5lOZ5lOZ'   / ASCII 1's complement checksum                  
+PIPEFILE= 'r.FORS.1999-06-18T03:25:21.336_0000.fits' / Filename of data product 
+HIERARCH ESO OBS TPLNO =          2 / Template number within OB                 
+HIERARCH ESO OBS NAME  = 'NGC6218-Q1-5x2secV' / OB name                         
+HIERARCH ESO OBS PROG ID       = '63.L-0423(A)' / ESO program identification    
+HIERARCH ESO OBS ID    =       5120 / Observation block ID                      
+HIERARCH ESO OBS DID   = 'ESO-VLT-DIC.OBS-1.0' / OBS Dictionary                 
+HIERARCH ESO OBS OBSERVER      = 'UNKNOWN ' / Observer Name                     
+HIERARCH ESO OBS PI-COI NAME   = 'UNKNOWN ' / PI-COI name                       
+HIERARCH ESO OBS PI-COI ID     =       5784 / ESO internal PI-COI ID            
+HIERARCH ESO OBS TARG NAME     = 'NGC6218-Q1' / OB target name                  
+HIERARCH ESO OBS GRP   = '0       ' / linked blocks                             
+HIERARCH ESO TPL ID    = 'FORS1_img_obs_exp' / Template signature ID            
+HIERARCH ESO TPL NAME  = 'Take an image.' / Template name                       
+HIERARCH ESO TPL NEXP  =          5 / Number of exposures within templat        
+HIERARCH ESO TPL EXPNO =          1 / Exposure number within template           
+HIERARCH ESO DPR DID   = '        ' / DPR Dictionary                            
+HIERARCH ESO DPR TECH  = 'IMAGE   ' / Observation technique                     
+HIERARCH ESO INS PIXSCALE      =        0.2 / pixel scale in arcsec/pixel       
+HIERARCH ESO INS MODE  = 'IMG     ' / Instrument mode used                      
+HIERARCH ESO INS COLL ID       = '+1      ' / Collimator unique ID              
+HIERARCH ESO INS COLL NAME     = 'COLL_SR ' / Collimator name                   
+HIERARCH ESO INS FOCU POS      =  -0.033375 / Focus position in cm              
+HIERARCH ESO INS FOCU TEMP     =  7.4944396 / Focus temperature in C            
+HIERARCH ESO INS OPTI2 NAME    = 'free    ' / Name of long slit or polarimetric 
+HIERARCH ESO INS OPTI2 ID      = '        ' / Id of long slit or polarimetric ma
+HIERARCH ESO INS OPTI2 TYPE    = '        ' / Element type                      
+HIERARCH ESO INS OPTI3 NAME    = 'COLL_SR ' / Name of collimator                
+HIERARCH ESO INS OPTI3 ID      = '+1      ' / Identification of collimator      
+HIERARCH ESO INS OPTI3 TYPE    = 'COLL    ' / Element type                      
+HIERARCH ESO INS OPTI4 NAME    = 'free    ' / Name of retarder plate            
+HIERARCH ESO INS OPTI4 ID      = '        ' / Id of retarder plate              
+HIERARCH ESO INS OPTI4 TYPE    = '        ' / Element type                      
+HIERARCH ESO INS OPTI5 NAME    = 'free    ' / element name in wheel 1 (Wollaston
+HIERARCH ESO INS OPTI5 ID      = '        ' / element id in wheel 1 (Wollaston) 
+HIERARCH ESO INS OPTI5 TYPE    = '        ' / Element type                      
+HIERARCH ESO INS OPTI6 NAME    = 'free    ' / element name in wheel2 (grism)    
+HIERARCH ESO INS OPTI6 ID      = '        ' / element id in wheel2 (grism)      
+HIERARCH ESO INS OPTI6 TYPE    = '        ' / Element type                      
+HIERARCH ESO INS OPTI7 NAME    = 'V_BESS  ' / element name in wheel3 (parallel b
+HIERARCH ESO INS OPTI7 ID      = '+35     ' / element id in wheel3 (parallel bea
+HIERARCH ESO INS OPTI7 TYPE    = 'FILT    ' / Element type                      
+HIERARCH ESO INS OPTI8 NAME    = 'CAMERA  ' / camera name                       
+HIERARCH ESO INS OPTI8 ID      = '+3      ' / camera id                         
+HIERARCH ESO INS OPTI8 TYPE    = 'CAMERA  ' / Element type                      
+HIERARCH ESO INS OPTI9 NAME    = 'free    ' / element name in wheel 4 (interfere
+HIERARCH ESO INS OPTI9 ID      = '        ' / element id in wheel 4 (interferenc
+HIERARCH ESO INS OPTI9 TYPE    = '        ' / Element type                      
+HIERARCH ESO INS OPTI10 NAME   = 'free    ' / Element name in wheel 5 (interf. 2
+HIERARCH ESO INS OPTI10 ID     = '        ' / Element id in wheel 5 (interf. 2) 
+HIERARCH ESO INS OPTI10 TYPE   = '        ' / Element type                      
+HIERARCH ESO DET ID    = 'CCD FIERA - Rev 2.42' / Detector system Id            
+HIERARCH ESO DET NAME  = 'ccdF - fors' / Name of detector system                
+HIERARCH ESO DET DATE  = '23/11/98' / Installation date                         
+HIERARCH ESO DET DID   = 'ESO-VLT-DIC.CCDDCS,ESO-VLT-DIC.FCDDCS' / Diction      
+HIERARCH ESO DET BITS  =         16 / Bits per pixel readout                    
+HIERARCH ESO DET RA    =         0. / Apparent 00:00:00.0 RA at start           
+HIERARCH ESO DET DEC   =         0. / Apparent 00:00:00.0 DEC at start          
+HIERARCH ESO DET SOFW MODE     = 'Normal  ' / CCD sw operational mode           
+HIERARCH ESO DET CHIPS =          1 / # of chips in detector array              
+HIERARCH ESO DET CHIP1 ID      = 'TK2048EB4-1 160' / Detector chip identificatio
+HIERARCH ESO DET CHIP1 NAME    = '        ' / Detector chip name                
+HIERARCH ESO DET CHIP1 DATE    = '23/11/98' / Date of installation [YYYY-MM-DD] 
+HIERARCH ESO DET CHIP1 X       =          1 / X location in array               
+HIERARCH ESO DET CHIP1 Y       =          1 / Y location in array               
+HIERARCH ESO DET CHIP1 NX      =       2048 / # of pixels along X               
+HIERARCH ESO DET CHIP1 NY      =       2049 / # of pixels along Y               
+HIERARCH ESO DET CHIP1 PSZX    =        24. / Size of pixel in X                
+HIERARCH ESO DET CHIP1 PSZY    =        24. / Size of pixel in Y                
+HIERARCH ESO DET EXP NO=       2041 / Unique exposure ID number                 
+HIERARCH ESO DET EXP TYPE      = 'Normal  ' / Exposure type                     
+HIERARCH ESO DET EXP DUMDIT    =          0 / # of dummy readouts               
+HIERARCH ESO DET EXP RDTTIME   =     91.195 / image readout time                
+HIERARCH ESO DET EXP XFERTIM   =     91.218 / image transfer time               
+HIERARCH ESO DET READ MODE     = 'normal  ' / Readout method                    
+HIERARCH ESO DET READ SPEED    = 'normal  ' / Readout speed                     
+HIERARCH ESO DET READ CLOCK    = 'Readout A (low' / Readout clock pattern used  
+HIERARCH ESO DET OUTPUTS       =          1 / # of outputs                      
+HIERARCH ESO DET OUTREF=          0 / reference output                          
+HIERARCH ESO DET OUT1 ID       = 'A       ' / Output ID as from manufacturer    
+HIERARCH ESO DET OUT1 NAME     = 'A       ' / Description of output             
+HIERARCH ESO DET OUT1 CHIP     =          1 / Chip to which the output belongs  
+HIERARCH ESO DET OUT1 X=          1 / X location of output                      
+HIERARCH ESO DET OUT1 Y=          1 / Y location of output                      
+HIERARCH ESO DET OUT1 NX       =       2048 / valid pixels along X              
+HIERARCH ESO DET OUT1 NY       =       2048 / valid pixels along Y              
+HIERARCH ESO DET OUT1 CONAD    =        2.9 / Conversion from ADUs to electrons 
+HIERARCH ESO DET OUT1 RON      =       5.75 / Readout noise per output (e-)     
+HIERARCH ESO DET OUT1 GAIN     =       0.34 / Conversion from electrons to ADU  
+HIERARCH ESO DET FRAM ID       =          1 / Image sequencial number           
+HIERARCH ESO DET FRAM TYPE     = 'Normal  ' / Type of frame                     
+HIERARCH ESO DET WINDOWS       =          1 / # of windows readout              
+HIERARCH ESO DET WIN1 STRX     =          1 / Lower left pixel in X             
+HIERARCH ESO DET WIN1 STRY     =          1 / Lower left pixel in Y             
+HIERARCH ESO DET WIN1 NX       =       2080 / # of pixels along X               
+HIERARCH ESO DET WIN1 NY       =       2048 / # of pixels along Y               
+HIERARCH ESO DET WIN1 BINX     =          1 / Binning factor along X            
+HIERARCH ESO DET WIN1 BINY     =          1 / Binning factor along Y            
+HIERARCH ESO DET WIN1 NDIT     =          1 / # of subintegrations              
+HIERARCH ESO DET WIN1 UIT1     =         2. / user defined subintegration time  
+HIERARCH ESO DET WIN1 DIT1     =         2. / actual subintegration time        
+HIERARCH ESO DET WIN1 DKTM     =      2.026 / Dark current time                 
+HIERARCH ESO DET SHUT TYPE     = 'Iris    ' / type of shutter                   
+HIERARCH ESO DET SHUT ID       = 'fors shutter' / Shutter unique identifier     
+HIERARCH ESO DET SHUT TMOPEN   =         0. / Time taken to open shutter        
+HIERARCH ESO DET SHUT TMCLOS   =         0. / Time taken to close shutter       
+HIERARCH ESO TEL DID   = 'ESO-VLT-DIC.TCS' / Data dictionary for TEL            
+HIERARCH ESO TEL ID    = 'v 1.188 ' / TCS version number                        
+HIERARCH ESO TEL DATE  = '1999-03-28T15:03:06.000' / TCS installation date      
+HIERARCH ESO TEL ALT   =     66.783 / Alt angle at start (deg)                  
+HIERARCH ESO TEL AZ    =    192.487 / Az angle at start (deg) S=0,W=90          
+HIERARCH ESO TEL GEOELEV       =      2681. / Elevation above sea level (m)     
+HIERARCH ESO TEL GEOLAT=   -24.6279 / Tel geo latitute (+=North) (deg)          
+HIERARCH ESO TEL GEOLON=   -70.4048 / Tel geo longitute (+=East) (deg)          
+HIERARCH ESO TEL OPER  = 'I, Condor' / Telescope Operator                       
+HIERARCH ESO TEL FOCU ID       = 'CA      ' / Telescope focus station ID        
+HIERARCH ESO TEL FOCU LEN      =    108.827 / Focal length (m)                  
+HIERARCH ESO TEL FOCU SCALE    =      1.894 / Focal scale (arcsec/mm)           
+HIERARCH ESO TEL FOCU VALUE    =     -5.042 / M2 setting (mm)                   
+HIERARCH ESO TEL PARANG START  =   -168.662 / Parallactic angle at start (deg)  
+HIERARCH ESO TEL AIRM START    =      1.088 / Airmass at start                  
+HIERARCH ESO TEL AMBI FWHM START       =       0.64 / Observatory Seeing queried
+HIERARCH ESO TEL TRAK STATUS   = 'NORMAL  ' / Tracking status                   
+HIERARCH ESO TEL DOME STATUS   = 'FULLY-OPEN' / Dome status                     
+HIERARCH ESO TEL PARANG END    =   -168.775 / Parallactic angle at end (deg)    
+HIERARCH ESO TEL AIRM END      =      1.088 / Airmass at end                    
+HIERARCH ESO TEL AMBI FWHM END =       0.64 / Observatory Seeing queried from AS
+HIERARCH ESO ADA ABSROT START  =   11.77964 / Abs rot angle at exp start (deg)  
+HIERARCH ESO ADA POSANG=         0. / Position angle at start                   
+HIERARCH ESO ADA GUID STATUS   = 'ON      ' / Status of autoguider              
+HIERARCH ESO ADA ABSROT END    =   11.66674 / Abs rot angle at exp end (deg)    
+HIERARCH ESO INS FILT1 ID      = '+35     ' / Filter unique ID                  
+HIERARCH ESO INS FILT1 NAME    = 'V_BESS  ' / Filter i name                     
+HIERARCH ESO ADA GUID RA       =  251.69515 / 16:46:46.8 Guide star RA J2000    
+HIERARCH ESO ADA GUID DEC      =   -1.98056 / -01:58:50.0 Guide star DEC J2000  
+HIERARCH ESO PRO QC STATUS     = 'CHECKED ' / QC status of frame                
+HIERARCH ESO PRO QC OVEREXPO   =         0. / Percentage of overexposed pixels (
+HIERARCH ESO PRO CATG  = 'SCIENCE_REDUCED_IMG' / Category of pipeline product fr
+HIERARCH ESO PRO TYPE  = 'REDUCED ' / Product type                              
+HIERARCH ESO PRO REDLEVEL      = 'DETECTOR' / Reduction level of data product   
+HIERARCH ESO PRO STATUS= 'OK      ' / Pipeline status of frame                  
+HIERARCH ESO PRO DID   = 'ESO-VLT-DIC.PRO-1.4' / Data dictionary for PRO        
+HIERARCH ESO PRO DO ID = 'DO-1_7  ' / Data Organizer identification ID          
+HIERARCH ESO PRO RBS ID= 'RBS-1_7 ' / Reduction Block Scheduler identification I
+HIERARCH ESO PRO DATE  = '1999-07-19T18:27:34' / Date when Pipeline was executed
+HIERARCH ESO PRO RB ID = 'FORS.1999-06-18T03:25:21.336.rW' / Reduction Block ide
+HIERARCH ESO PRO QC DATE       = '1999-07-19T18:27:34' / Date when QC was perfor
+HIERARCH ESO PRO QC CERTIF     = 'REDUCED ' / Certification level of frame      
+HIERARCH ESO PRO QC ARCFILE    = 'FORS.1999-06-18T03:25:21.336.fits' / Archive f
+                                                                                
+HISTORY  ESO-DESCRIPTORS START   ................                               
+HISTORY  'CRVAL','R*8',1,2,'3E23.15'                                            
+HISTORY    2.517604000000000E+02 -1.897780000000000E+00                         
+HISTORY                                                                         
+HISTORY  'OVEREXPO_MASK','C*1',1,76,'70A1'                                      
+HISTORY  rbf_0_oem.bdf                                                          
+HISTORY                                                                         
+HISTORY                                                                         
+HISTORY  'CCDSTAT','I*4',1,10,'7I10'                                            
+HISTORY           0         0         0         1         0         1         0 
+HISTORY           0         0         0                                         
+HISTORY                                                                         
+HISTORY  'EXPO_TYPE','C*1',1,4,'4A1'                                            
+HISTORY  OBJE                                                                   
+HISTORY                                                                         
+HISTORY  'LHCUTS','R*4',1,4,'5E14.7'                                            
+HISTORY   0.0000000E+00 0.0000000E+00-3.7312038E+01 6.6217844E+04               
+HISTORY                                                                         
+HISTORY  'HIST_BINS','R*4',1,5,'5E14.7'                                         
+HISTORY   2.5600000E+02 2.5982413E+02-3.7312038E+01 6.6217844E+04 0.0000000E+00 
+HISTORY                                                                         
+HISTORY  'HISTOGRAM','I*4',1,256,'7I10'                                         
+HISTORY     4168320     15283      3597      1756      1066       710       522 
+HISTORY         381       321       265       203       200       134       121 
+HISTORY          99       100        78        68        58        45        63 
+HISTORY          51        54        48        33        36        28        20 
+HISTORY          21        21        23        26        15        21        17 
+HISTORY          15        13        17        15         7        13        15 
+HISTORY           7         8         8        13         3         6        14 
+HISTORY          13         4        14         9         8         8         9 
+HISTORY           7         3         4         7         7         8         7 
+HISTORY           4         4         1         4         1         5         5 
+HISTORY           3         0         4         4         7         4         2 
+HISTORY           4         4         4         1         5         2         5 
+HISTORY           3         4         4         1         2         2         1 
+HISTORY           2         2         3         1         3         0         4 
+HISTORY           4         3         2         3         2         1         6 
+HISTORY           0         1         3         3         0         2         3 
+HISTORY           2         1         3         0         0         0         1 
+HISTORY           0         1         3         0         2         1         1 
+HISTORY           0         1         0         0         1         1         1 
+HISTORY           2         0         0         1         2         1         3 
+HISTORY           3         1         1         1         1         1         3 
+HISTORY           1         1         1         0         3         0         0 
+HISTORY           0         0         1         0         2         1         1 
+HISTORY           2         0         2         3         0         0         0 
+HISTORY           0         2         1         1         0         0         1 
+HISTORY           1         0         0         0         0         0         0 
+HISTORY           0         1         0         0         0         1         0 
+HISTORY           0         0         1         0         0         1         0 
+HISTORY           3         1         0         0         0         0         0 
+HISTORY           1         0         0         0         0         1         0 
+HISTORY           0         0         2         1         0         1         0 
+HISTORY           0         0         0         0         0         0         1 
+HISTORY           0         1         1         0         0         0         0 
+HISTORY           1         1         0         1         0         2         1 
+HISTORY           2         0         0         0         0         0         0 
+HISTORY           0         1         0         0         1         1         2 
+HISTORY           0         1         5         1                               
+HISTORY                                                                         
+HISTORY  'STATISTIC','R*4',1,12,'5E14.7'                                        
+HISTORY  -3.7312038E+01 6.6217844E+04 2.0206543E+01 2.9912277E+02 1.2002627E+02 
+HISTORY   1.9316520E+04 8.4752384E+07 9.3409859E+01 9.2600021E+01 2.5600000E+02 
+HISTORY   2.5982413E+02 9.2600021E+01                                           
+HISTORY                                                                         
+HISTORY  'WINDOW_FROM','I*4',1,2,'7I10'                                         
+HISTORY           1         1                                                   
+HISTORY                                                                         
+HISTORY  'WINDOW_TO','I*4',1,2,'7I10'                                           
+HISTORY        2048      2048                                                   
+HISTORY                                                                         
+HISTORY  'SHORTLOG','C*50',1,7,'70A1'                                           
+HISTORY  Recipe log (Mo, 19 Jul 1999   18:26:32):          Frame(s) checked for 
+HISTORY   overexposure                 Simple statistics calculated             
+HISTORY            Bias from overscan regions determined.            Bias subtr 
+HISTORY  action done.                            Flat field correction done.    
+HISTORY                      .................................................. 
+HISTORY                                                                         
+HISTORY  'REDBLOCK','C*48',1,23,'70A1'                                          
+HISTORY  recipe:  FORS_S_IMG_SCISIMP                     instrument: fors       
+HISTORY                            /array2/fors/dfs_product/SCI_STD/r.FORS.1999 
+HISTORY  -06-18T03:25:21.336                                 {                  
+HISTORY                                /array2/fors/data/raw/1999-06-17/SCI_STD 
+HISTORY  /FORS.1999-06-18T03:25:21.336.fits SCIENCE_IMG          }              
+HISTORY                                    {                                    
+HISTORY              /cal/ut1/fors/ima/cal/badpix_tbl_1x1_990401.tfits BAD_PIXE 
+HISTORY  L_TABLE                               /cal/ut1/fors/ima/cal/mbias_sg29 
+HISTORY  _1x1s_990617A.fits MASTER_BIAS                                  /cal/u 
+HISTORY  t1/fors/ima/cal/mskyflat_VBE_sg29_1x1s_990614A.fits MASTER_SKY_FLAT_IM 
+HISTORY  G                   /cal/ut1/fors/ima/cal/phot__inpar.tfits PHOTOMETRY 
+HISTORY  _INPUT_PAR                                    /cal/ut1/fors/ima/cal/ph 
+HISTORY  ot_convol.tfits PHOTOMETRY_CONVOL_MASK                                 
+HISTORY    /cal/ut1/fors/ima/cal/phot_outpar.tfits PHOTOMETRY_OUTPUT_PAR        
+HISTORY                              }                                          
+HISTORY                                                                         
+HISTORY                                                                         
+HISTORY  ESO-DESCRIPTORS END     ................                               
+NCOMBINE=                    5
